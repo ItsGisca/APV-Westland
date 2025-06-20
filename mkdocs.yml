@@ -1,0 +1,26 @@
+site_name: Westland Roleplay
+site_url: https://apv.westlandrp.nl
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+theme:
+  name: material
+  locale: nl
+  palette:
+    # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Dark Mode
+      primary: green
+      accent: lime
+
+    # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off
+        name: Light Mode
+      primary: green
+      accent: lime
+
